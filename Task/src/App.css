@@ -1,0 +1,55 @@
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(190, 190, 190);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper{
+  width: 70%;
+  height: 500px;
+  /* background-color: rebeccapurple; */
+}
+
+.top{
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.quote{
+  text-align: center;
+}
+
+.author{
+  text-align: right;
+}
+
+/* .topAuthor{
+  display: flex;
+  align-items:flex-end;
+} */
+
+.bottom{
+  display: flex;
+  justify-content: center;
+}
+
+.bottomButton{
+  font-size: large;
+  padding: 5px 15px;
+  background: rgb(59, 59, 59);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+
+#downloadSection{
+  background-color: rgb(190, 190, 190);
+  padding: 0px 25px;
+}
